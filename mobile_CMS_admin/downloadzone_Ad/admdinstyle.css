@@ -1,0 +1,125 @@
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.form {
+	width: 480px;
+}
+td {
+	nowrap:nowrap;
+}
+.sizeTwo {
+	width: 250px;
+}
+.sizeOne {
+	width: 150px;
+}
+.bkgnd_lightgrey {
+	background-image:url(images/bkgnd_lightgrey.gif);
+}
+#main_feature_hdr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight:bold;
+	color: #333333;
+}
+body {
+	margin-top:0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#story_body_txt {
+	font-weight:bold;
+	text-decoration:none;
+	color: #666666;
+	line-height:12px;
+}
+
+#story_body_txt a {
+	font-weight:bold;
+	text-decoration:none;
+	color: #0066CC;
+}
+
+#story_body_txt a:link {
+	font-weight:bold;
+	text-decoration:none;
+	color: #0066CC;
+}
+
+#story_body_txt a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	color: #0066CC;
+}
+
+#story_body_txt a:hover {
+	font-weight:bold;
+	text-decoration:underline;
+	color: #0066CC;
+}
+
+
+.fakefile {
+	z-index: 1;
+	border: 1;
+	border-left-width: 1px; 
+	border-bottom-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 1px;
+	border-style: solid;
+	text-align: center;
+	width:50px;
+}
+
+.file {
+	position: relative;
+	top: -15px;
+	cursor:pointer;
+	width:50px;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.fakefilex {
+	position: absolute;
+	z-index: 1;
+	border: 1;
+	border-left-width: 1px; 
+	border-bottom-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 1px;
+	border-style: solid;
+	text-align: center;
+	width:40px;
+}
+
+.filex {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+	cursor:pointer;
+}
